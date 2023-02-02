@@ -9,7 +9,7 @@ corsProxy.createServer({
     originWhitelist: [
       'http://localhost:3000',
       'http://localhost:8080',
-      'https://capable-kangaroo-cd1530.netlify.app',
+      'https://revolut-api-integration.netlify.app',
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
